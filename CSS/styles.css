@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.indent-right {
+    margin-right: -7px;
+}
+
+.top-margin {
+    margin-top: 50px;
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    background-image: url("/images/adam-winger-WXmHwPcFamo-unsplash.jpg");
+    background-color: rgb(33, 25, 6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.logo p{
+    font-size: 30px;
+    color: #fec300;
+    font-weight: 800;
+}
+
+.logo-icon {
+    width: 150px;
+}
+h1 {
+    font-size: 50px ;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.hero-content > div {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-contact, .hero-contact > address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact {
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact > p {
+    font-size: 22px;
+    margin-left: -150px;
+    
+}
+
+.contact-icon {
+    height: 45px;
+    width: 45px;
+    margin-left: -60px;
+}
+
+.logo-indent {
+    margin-left: -70px;
+}
+
+.info > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 400px;
+    border-radius: 40px;
+    
+}
